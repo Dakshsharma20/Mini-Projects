@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+}
+.background{
+  background: linear-gradient(45deg,#0a0a0a,#3a4452);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.maindiv{
+  width: 25%;
+  height: 70%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  border: 1px, solid, #717377;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+.container{
+width: 90%;
+height: 20%;
+font-size: 40px;
+text-align: right;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+color: white;
+}
+.container1{
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+.btn{
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+.operator{
+  color: #56A027;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  /* color: #ffffff; */
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+.equalbtn{
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #C66515;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  
+}
+
+/* ---------------------------------TTT------------------------------------ */
+.ttt-board{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ttt-box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
