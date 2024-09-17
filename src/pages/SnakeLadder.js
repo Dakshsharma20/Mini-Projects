@@ -82,7 +82,7 @@ function SnakeLadder() {
       p1:{p1}
       <br></br>
       p2:{p2}
-      <br></br>
+      <br></br>    
       turn: {turn}
       <button onClick={()=>throwDice()} className='blank1'>{dice}</button>
     </div>

@@ -7,6 +7,8 @@ import Crousal from './Crousal'
 import Slider from './pages/Slider'
 import SnakeLadder from './pages/SnakeLadder'
 import Practice from './pages/Practice'
+import RockPapperScisor from './pages/RockPapperScisor'
+import Todo from './pages/Todo'
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/slider' element={<Slider/>}></Route>
         <Route path='/snakeladder' element={<SnakeLadder/>}></Route>
         <Route path='/practice' element={<Practice/>}></Route>
+        <Route path='/rock-paaper-scisor' element={<RockPapperScisor/>}></Route>
+        <Route path='/todo' element={<Todo/>}></Route>
       </Routes>
     </BrowserRouter>
   )

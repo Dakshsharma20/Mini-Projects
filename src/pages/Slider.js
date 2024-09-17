@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Slider() {
     const [slide, setSlide] = useState(0)
     return (
-        <div className='w-[70%] ml-[15%] mt-[15vh] overflow-hidden'>
+        <   div className='w-[70%] ml-[15%] mt-[15vh]'>
             {slide}
             <div style={{ transform: `translateX(-${slide}%)` }} className='flex w-[300%] duration-200'>
                 <div className='bg-red-500 w-[100%] h-[70vh]'></div>
